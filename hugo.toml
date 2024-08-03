@@ -1,7 +1,7 @@
 baseURL = 'https://blog.diver27.com/'
 languageCode = 'zh-cn'
 title = 'Ignis Fatuus'
-theme = 'typo'
+theme = 'typo-custom'
 hasCJKLanguage = true
 
 [params]
