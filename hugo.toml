@@ -1,26 +1,25 @@
 baseURL = 'https://blog.diver27.com/'
-languageCode = 'en-us'
+languageCode = 'zh-cn'
 title = 'Ignis Fatuus'
-theme = 'hugo-theme-yue'
+theme = 'typo'
 hasCJKLanguage = true
 
-[author]
-email = "yinliuxuan@gmail.com"
-name = "潜水人27"
+[params]
+homeCollectionTitle = 'Recent'
+homeCollection = 'post'
+paginationSize = 10
+listSummaries = true
+breadcrumbs = true
+homeIntroContent = """愚人火花"""
 
-[[menu.main]]
-identifier = "post" # section id
-name = "Post"       # section display title
-url = "/"           # path to the section
-weight = 1          # order of sections
-[[menu.main]]
-identifier = "archives"
-name = "Archives"
-url = "/post/"
-weight = 2
-[[menu.main]]
-identifier = "about"
+[[params.menu]]
+name = "Home"
+url = "/"
+
+[[params.menu]]
+name = "Archive"
+url = "/post"
+
+[[params.menu]]
 name = "About"
-url = "/about/"
-weight = 3
-
+url = "/about"
