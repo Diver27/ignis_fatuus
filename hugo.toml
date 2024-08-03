@@ -1,0 +1,26 @@
+baseURL = 'https://blog.diver27.com/'
+languageCode = 'en-us'
+title = 'Ignis Fatuus'
+theme = 'hugo-theme-yue'
+hasCJKLanguage = true
+
+[author]
+email = "yinliuxuan@gmail.com"
+name = "潜水人27"
+
+[[menu.main]]
+identifier = "post" # section id
+name = "Post"       # section display title
+url = "/"           # path to the section
+weight = 1          # order of sections
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/post/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
