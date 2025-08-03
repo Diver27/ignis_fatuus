@@ -1,16 +1,26 @@
 baseURL = 'https://blog.diver27.com/'
-languageCode = 'zh-cn'
+languageCode = 'en-US'
 title = 'Ignis Fatuus'
 theme = 'typo-custom'
 hasCJKLanguage = true
 
 [params]
+description = "The Diver's blog"
 homeCollectionTitle = 'Recent'
 homeCollection = 'post'
 paginationSize = 10
 listSummaries = true
-breadcrumbs = true
 homeIntroContent = """愚人火花"""
+hideHeader = true
+showFooter = true
+footerContent = "And the night does not end."
+colorPalette = 'gruvebox'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
 
 [[params.menu]]
 name = "Home"
