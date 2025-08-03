@@ -4,10 +4,14 @@ title = 'Ignis Fatuus'
 theme = 'typo-custom'
 hasCJKLanguage = true
 
+[markup]
+	[markup.goldmark]
+	renderer.unsafe = true
+
 [params]
 description = "The Diver's blog"
 homeCollectionTitle = 'Recent'
-homeCollection = 'post'
+homeCollection = 'article'
 paginationSize = 10
 listSummaries = true
 homeIntroContent = """愚人火花"""
@@ -19,16 +23,12 @@ colorPalette = 'gruvebox'
 # Breadcrumbs
 [params.breadcrumbs]
 enabled = true
-showCurrentPage = true
+showCurrentPage = false
 home = "Home"
 
 [[params.menu]]
-name = "Home"
-url = "/"
-
-[[params.menu]]
 name = "Archive"
-url = "/post"
+url = "/article"
 
 [[params.menu]]
 name = "About"
