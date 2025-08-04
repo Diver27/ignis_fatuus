@@ -9,6 +9,7 @@ hasCJKLanguage = true
 	renderer.unsafe = true
 
 [params]
+theme = 'dark'
 description = "The Diver's blog"
 homeCollectionTitle = 'Recent'
 homeCollection = 'article'
